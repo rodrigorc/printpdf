@@ -23,7 +23,7 @@ time = { version = "0.3.25", default-features = false, features = ["std"] }
 # optional: logging
 log = { version = "0.4.8", optional = true }
 # image reading (png / jpeg)
-image = { version = "0.24.3", optional = true, default-features = false, features = [
+image = { version = "0.25", optional = true, default-features = false, features = [
     "gif",
     "jpeg",
     "png",
@@ -49,8 +49,7 @@ embedded_images = ["image"]
 ico = ["image/ico", "embedded_images"]
 tga = ["image/tga", "embedded_images"]
 hdr = ["image/hdr", "embedded_images"]
-jpeg_rayon = ["image/jpeg_rayon", "embedded_images"]
-dxt = ["image/dxt", "embedded_images"]
+rayon = ["image/rayon", "embedded_images"]
 dds = ["image/dds", "embedded_images"]
 webp = ["image/webp", "embedded_images"]
 # enables svg
