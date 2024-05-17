@@ -18,7 +18,7 @@ edition = "2021"
 lopdf = { version = "0.31.0", default-features = false, features = [
     "pom_parser",
 ] }
-owned_ttf_parser = { version = "0.19.0", default-features = false }
+owned_ttf_parser = { version = "0.21.0", default-features = false }
 time = { version = "0.3.25", default-features = false, features = ["std"] }
 # optional: logging
 log = { version = "0.4.8", optional = true }
